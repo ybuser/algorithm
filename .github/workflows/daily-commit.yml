@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 매일 00:00 UTC (한국시간 09:00) 실행
+    - cron: "0 12 * * *"  # 매일 12:00 UTC (한국시간 21:00) 실행
   workflow_dispatch:      # 수동 실행 가능
 
 jobs:
